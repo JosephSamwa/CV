@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Wawindu - Professional CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --light-gray: #f5f6fa;
+            --spacing: 1.5rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--light-gray);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .cv-wrapper {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: var(--spacing);
+            text-align: center;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: #ecf0f1;
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section {
+            padding: var(--spacing);
+            border-bottom: 1px solid #eee;
+        }
+
+        .section-title {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .job {
+            margin-bottom: 1.5rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .company {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .date {
+            color: #666;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-item {
+            background: var(--light-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .references {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .reference {
+            background: var(--light-gray);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .job-header {
+                flex-direction: column;
+            }
+            
+            .contact {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        #alert {
+            display: none;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            color: #fff;
+            background-color: #0056b3;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #003a8c;
+        }
+    </style>
+</head>
+<body>
+    <div id="alert" style="display: none;">You have to make a payment of KES 500 to 0793540008 for you to download or print the CV.</div>
+    <div class="container">
+        <div class="cv-wrapper">
+            <header>
+                <h1 class="name">Emily Fuzzy Wawindu</h1>
+                <div class="title">Beauty Therapist & Hairdressing Professional</div>
+                <div class="contact">
+                    <div class="contact-item">📍 Nairobi, Kenya</div>
+                    <div class="contact-item">📧 warinduemily@gmail.com</div>
+                    <div class="contact-item">📱 +254 716 496 074</div>
+                </div>
+            </header>
+
+            <section class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p>Dedicated beauty therapist and hairdressing professional with over 3 years of experience in premium salons and spas. Skilled in a comprehensive range of beauty treatments and hair services. Known for delivering exceptional client experiences through a combination of technical expertise and excellent communication skills. Consistently pursues professional development to stay current with industry trends and techniques.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">SAPHA BEAUTY AND SPA, Lavington, Nairobi</div>
+                        <div class="date">December 2023 - Present</div>
+                    </div>
+                    <div class="position">Hairdresser & Beauty Therapist</div>
+                    <ul>
+                        <li>Provide comprehensive beauty and hair services to a diverse clientele in an upscale setting</li>
+                        <li>Specialize in advanced treatments including Hammam maghiribi and customized facials</li>
+                        <li>Maintain high standards of hygiene and safety in all procedures</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">COSSY SALON, Jamhuri Shopping Centre, Nairobi</div>
+                        <div class="date">February 2023 - November 2023</div>
+                    </div>
+                    <div class="position">Hairdresser & Beauty Therapist</div>
+                    <ul>
+                        <li>Performed wide range of hair services including styling, coloring, and treatments</li>
+                        <li>Delivered professional beauty treatments including waxing and facial services</li>
+                        <li>Built and maintained a loyal client base through excellent service delivery</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">BEAUTY CHALLENGE SPA, Jamhuri Estate, Nairobi</div>
+                        <div class="date">March 2022 - January 2023</div>
+                    </div>
+                    <div class="position">Beauty Therapist</div>
+                    <ul>
+                        <li>Specialized in body treatments, massage therapy, and skincare services</li>
+                        <li>Provided personalized treatment plans based on client needs and preferences</li>
+                        <li>Maintained detailed client records and treatment histories</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Advanced Certificate in Beauty</div>
+                        <div class="date">2023</div>
+                    </div>
+                    <div>Vera Beauty and Fashion College</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Diploma Level 2 in Full Cosmetology</div>
+                        <div class="date">2021</div>
+                    </div>
+                    <div>Carenic Professional Hairdressing and Beauty College</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Diploma Level 2 in Full Cosmetology</div>
+                        <div class="date">2020</div>
+                    </div>
+                    <div>KIPs Technical College</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Advanced Beauty Treatments</div>
+                    <div class="skill-item">Hair Styling & Coloring</div>
+                    <div class="skill-item">Hammam Maghiribi</div>
+                    <div class="skill-item">Massage Therapy</div>
+                    <div class="skill-item">Facial Treatments</div>
+                    <div class="skill-item">Waxing Services</div>
+                    <div class="skill-item">Pedicure & Manicure</div>
+                    <div class="skill-item">Client Consultation</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Professional References</h2>
+                <div class="references">
+                    <div class="reference">
+                        <h3>Fradowsa Mohamed</h3>
+                        <p>Manager, Sapha Beauty and Spa</p>
+                        <p>+254 723 155 446</p>
+                    </div>
+
+                    <div class="reference">
+                        <h3>Jacinta Waithera</h3>
+                        <p>Owner, Cossy Salon</p>
+                        <p>+254 115 621 861</p>
+                    </div>
+
+                    <div class="reference">
+                        <h3>Mary Gathoni</h3>
+                        <p>Director, Beauty Challenge Spa</p>
+                        <p>+254 762 223 16</p>
+                    </div>
+
+                    <div class="reference">
+                        <h3>Caren Kyengo</h3>
+                        <p>Principal, Carenic Professional Hairdressing and Beauty College</p>
+                        <p>+254 707 373 889</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <a href="#" onclick="Print()" class="button">Print</a>
+            <a href="#" class="button" onclick="downloadPDF()">Download Contract as PDF</a>
+        </div>
+        </div>
+        
+        <script>
+           function Print() {
+            document.getElementById("alert").style.display = "block";
+        }
+        
+        
+            
+             function downloadPDF() {
+                document.getElementById("alert").style.display = "block";
+             }
+        </script>
+        
+        </body>
+        </html>
